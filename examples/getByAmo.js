@@ -1,4 +1,4 @@
-var client = require('./alerts');
+var client = require('../lib/netex-alerts');
 var cliff  = require('cliff');
 
 var columns = ['id', 'AMO Name', 'Alert Name', 'Severity', 'Description', 'Count', 'Time Created', 'AMO Class', 'Date Created'];
